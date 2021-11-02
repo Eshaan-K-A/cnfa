@@ -1,0 +1,40 @@
+.btn-info {
+    margin-top: 5%;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 2px;
+}
+
+.btn-success{
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+.btn-success:hover{
+    background-color: rgb(217, 255, 0);
+    color: black;
+}
+
+canvas {
+    animation-name: animation1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+}
+
+@keyframes animation1 {
+    0%  {box-shadow: 1px 1px 15px yellow;}
+    10% {box-shadow: 1px 1px 15px greenyellow;}
+    20% {box-shadow: 1px 1px 15px aquamarine;}
+    30% {box-shadow: 1px 1px 15px aqua;}
+    40% {box-shadow: 1px 1px 15px aquamarine;}
+    50% {box-shadow: 1px 1px 15px greenyellow;}
+    60% {box-shadow: 1px 1px 15px yellow;}
+    70% {box-shadow: 1px 1px 15px orange;}
+    80% {box-shadow: 1px 1px 15px red;}
+    90% {box-shadow: 1px 1px 15px orange};
+    100% {box-shadow: 1px 1px 15px yellow;};
+    10% {box-shadow: 1px 1px 15px yellow;}
+}
